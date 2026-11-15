@@ -126,7 +126,7 @@ function App() {
   }
 
   return (
-    <main className="min-h-screen bg-[#fafafa] px-4 py-8 text-slate-900 transition-colors dark:bg-[#111113] dark:text-slate-100 sm:px-6 sm:py-12">
+    <main className="min-h-screen bg-[#F8F7FF] px-4 py-8 text-[#202338] transition-colors dark:bg-[#171429] dark:text-[#F8F7FF] sm:px-6 sm:py-12">
       <section className="mx-auto max-w-3xl">
         <TodoHeader theme={theme} onToggleTheme={() => setTheme((current) => current === 'light' ? 'dark' : 'light')} />
         <ProgressBar progress={progress} completedCount={completedCount} totalCount={tasks.length} />
